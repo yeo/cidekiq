@@ -1,5 +1,6 @@
+//  javac -cp ../target/cidekiq-0.1.0-SNAPSHOT-standalone.jar Main.java
+//  java -cp "./:../target/cidekiq-0.1.0-SNAPSHOT-standalone.jar:" Main
 import space.yeo.cidekiq;
-
 public class Main {
 
   public static void main(String[] args) {
@@ -20,4 +21,5 @@ public class Main {
     cidekiq.schedule(System.currentTimeMillis() / 1000 + 300, "low", "SidekiqWorker", v);
 
     System.out.println(cidekiq.enqueue("default", "SidekiqWorker", a));
+  }
 }
