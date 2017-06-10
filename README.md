@@ -14,4 +14,4 @@ Bridge between Clojure<->Cidekiq
 
 ## Sponsor
 
-This project was sponsor by (http://noty.im)[http://noty.im]
+This project was sponsor by [http://noty.im](http://noty.im)
