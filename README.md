@@ -1,6 +1,6 @@
 # cidekiq
 
-Bridge between Clojure<->Cidekiq
+Bridge between Clojure<->Sidekiq
 
 ## Getting started
 
