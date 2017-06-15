@@ -1,6 +1,6 @@
 # cidekiq
 
-Bridge between Clojure<->Cidekiq
+Bridge between Clojure ⟷ Sidekiq
 
 ## Getting started
 
@@ -19,9 +19,10 @@ And setup your namespace imports:
 
 ## Connection
 
-Connection is handle for you automatically by reading env var
-`REDIS_URI` to find redis address. If not found, it uses default
-`redis://127.0.0.1:6379` means your local
+A Redis connection is handled for you automatically by reading the env var
+`REDIS_URI` to find redis address. If not found, it uses the default
+`redis://127.0.0.1:6379` which is for a local Redis instance on the
+default port.
 
 ## Usage
 
@@ -34,7 +35,12 @@ Connection is handle for you automatically by reading env var
 1000))) "h" "SidekiqWorker" ["this", "test"])
 1
 ```
+## License
+
+Distributed under the [Eclipse Public License v1.0](https://github.com/yeospace/cidekiq/blob/master/LICENSE)
+
+Copyright © Vinh Quốc Nguyễn 2017
 
 ## Sponsor
 
-This project was sponsor by [http://noty.im](http://noty.im)
+This project was sponsored by [http://noty.im](http://noty.im)
